@@ -1,0 +1,68 @@
+body{
+    background-color: aquamarine;
+    padding-left: 50px;
+    display: flex;
+    gap: 75px;
+}
+/*
+p{
+    transform: rotate(335deg) scaleY(2);
+    
+}*/
+
+/*rotate*/
+.rotate-by-deg{
+    transform: rotate(45deg);
+}
+
+.rotate-by-rad{
+    transform: rotate(-1rad);
+}
+
+.rotate-by-turn{
+    transform: rotate(0.4turn);
+}
+
+/*Span is a Non-replaced inline element Transform won't work on it*/
+span{
+    transform: rotate(45deg);
+}
+
+/*scale*/
+
+.scaleX{
+    transform: scaleX(0.25);
+}
+
+.scaleY{
+    transform: scaleY(1.5);
+}
+
+.scaleXY{
+    transform: scale(2,0.5);
+}
+
+.scale{
+    transform: scale(0.5);
+}
+
+/*skew*/
+
+.skew-div{
+    background: #cc9543;
+    width: 50px;
+    height: 50px;
+}
+
+.skewX{
+    transform: skewX(45deg);
+}
+.skewY{
+    transform: skewY(-0.5rad);
+}
+.skewXY{
+    transform: skew(45deg, -0.5rad);
+}
+.skew{
+    transform: skew(45deg);
+}
