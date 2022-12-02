@@ -66,3 +66,22 @@ span{
 .skew{
     transform: skew(45deg);
 }
+
+/*translate*/
+.translate-div{
+    border: 1px solid black;
+    margin-right: auto;
+    padding: 24px;
+}
+
+.translateX{
+    transform: translateX(20px);
+}
+
+.translateY{
+    transform: translateY(-33%);
+}
+
+.translateXY{
+    transform: translate(120%);
+}
